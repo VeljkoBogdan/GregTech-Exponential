@@ -1,0 +1,24 @@
+{
+  "name": "Puzzles Lib",
+  "side": "auto",
+  "explicit": false,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "495476",
+      "slug": "puzzles-lib",
+      "versionId": "9331322",
+      "versionNumber": "v21.1.66-mc1.21.1+neoforge",
+      "filename": "puzzleslib-v21.1.66-mc1.21.1+neoforge.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/9331/322/puzzleslib-v21.1.66-mc1.21.1%2bneoforge.jar",
+      "sha1": "fd584167f1277aef5411a98a22390c65cabe6e07",
+      "fileSize": 1451120
+    }
+  },
+  "dependents": [
+    "686435"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

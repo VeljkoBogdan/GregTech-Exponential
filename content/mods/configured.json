@@ -1,0 +1,22 @@
+{
+  "name": "Configured",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "457570",
+      "slug": "configured",
+      "versionId": "7276577",
+      "versionNumber": "Configured 2.6.3",
+      "filename": "configured-neoforge-1.21.1-2.6.3.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/7276/577/configured-neoforge-1.21.1-2.6.3.jar",
+      "sha1": "e977d86eec39d49295df4e2c4265d6710ae065e8",
+      "fileSize": 428793
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

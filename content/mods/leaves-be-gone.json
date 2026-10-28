@@ -1,0 +1,22 @@
+{
+  "name": "Leaves Be Gone",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "686435",
+      "slug": "leaves-be-gone",
+      "versionId": "8036398",
+      "versionNumber": "[NEOFORGE] [1.21.1] LeavesBeGone-v21.1.1",
+      "filename": "LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/8036/398/LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
+      "sha1": "1d8eec39ed44414af14d14c0dfb5abd097e77491",
+      "fileSize": 55937
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

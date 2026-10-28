@@ -1,0 +1,9 @@
+{
+  "name": "GregTech: Exponential",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": "neoforge",
+  "loaderVersion": "21.1.265",
+  "channel": "release",
+  "formatVersion": 1
+}

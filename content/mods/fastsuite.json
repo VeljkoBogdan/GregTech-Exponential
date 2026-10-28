@@ -1,0 +1,22 @@
+{
+  "name": "FastSuite",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "475117",
+      "slug": "fastsuite",
+      "versionId": "7527945",
+      "versionNumber": "FastSuite-1.21.1-6.0.7.jar",
+      "filename": "FastSuite-1.21.1-6.0.7.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/7527/945/FastSuite-1.21.1-6.0.7.jar",
+      "sha1": "664e62684311f727f1fac18f0de28e5317874b7e",
+      "fileSize": 28193
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

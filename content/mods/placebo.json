@@ -1,0 +1,26 @@
+{
+  "name": "Placebo",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "tCkE8p2N",
+      "slug": "placebo",
+      "versionId": "B5zbSVlT",
+      "versionNumber": "1.21.1-9.9.4",
+      "filename": "Placebo-1.21.1-9.9.4.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/tCkE8p2N/versions/B5zbSVlT/Placebo-1.21.1-9.9.4.jar",
+      "sha1": "007d52a42020a331d5272495f6d676e0ad1a2c13",
+      "sha512": "4f3a9c5974132f3638c262c56b0c2886df2bc58027c961aa11d06d0ae2e608b63f24f949b2f8c240989e2a1bfe303fd237c5f2d49269453ad6c2ff1f85f2c648",
+      "fileSize": 326063
+    }
+  },
+  "dependents": [
+    "271740",
+    "475117"
+  ],
+  "clientSide": "optional",
+  "serverSide": "optional"
+}

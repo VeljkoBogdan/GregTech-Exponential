@@ -1,0 +1,22 @@
+{
+  "name": "FerriteCore ((Neo)Forge)",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "429235",
+      "slug": "ferritecore",
+      "versionId": "7524151",
+      "versionNumber": "ferritecore-7.0.3-neoforge",
+      "filename": "ferritecore-7.0.3-neoforge.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/7524/151/ferritecore-7.0.3-neoforge.jar",
+      "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+      "fileSize": 121559
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

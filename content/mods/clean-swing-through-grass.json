@@ -1,0 +1,22 @@
+{
+  "name": "Clean Swing Through Grass",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "915308",
+      "slug": "clean-swing-through-grass",
+      "versionId": "8746293",
+      "versionNumber": "Clean Swing 1.21 1.10",
+      "filename": "cleanswing-1.10-1.21.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/8746/293/cleanswing-1.10-1.21.jar",
+      "sha1": "1df3892b57ad00a75c5bb4a6f6b2749aa126e548",
+      "fileSize": 9477
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

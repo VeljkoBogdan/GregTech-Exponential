@@ -1,0 +1,23 @@
+{
+  "name": "Inventory Essentials",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "Boon8xwi",
+      "slug": "inventory-essentials",
+      "versionId": "B2gBjJSj",
+      "versionNumber": "21.1.20+neoforge-1.21.1",
+      "filename": "inventoryessentials-neoforge-1.21.1-21.1.20.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/Boon8xwi/versions/B2gBjJSj/inventoryessentials-neoforge-1.21.1-21.1.20.jar",
+      "sha1": "7a3d6c52ae45491581a97bf09053cd0bd14d4a82",
+      "sha512": "70687fe3abd640cd6f9145e107b58b1b11a94c2cbb67cd8e5aa9a924b33e9532fe8bd6a47026250d65f379c89202a67eb32ab74105cc717b70871a0481925a9c",
+      "fileSize": 201140
+    }
+  },
+  "dependents": [],
+  "clientSide": "optional",
+  "serverSide": "optional"
+}

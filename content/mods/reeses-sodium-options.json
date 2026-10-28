@@ -1,0 +1,25 @@
+{
+  "name": "Reese's Sodium Options",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "511319",
+      "slug": "reeses-sodium-options",
+      "versionId": "8891797",
+      "versionNumber": "[NeoForge] Reese's Sodium Options 2.2.4 - Minecraft 1.21.1",
+      "filename": "reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/8891/797/reeses-sodium-options-neoforge-2.2.4%2bmc1.21.1.jar",
+      "sha1": "e9e6d101b31acb51539141937ad5b069ff2ccc4d",
+      "fileSize": 258894
+    }
+  },
+  "dependents": [],
+  "optionalDependents": [
+    "447673"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

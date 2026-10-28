@@ -1,0 +1,25 @@
+{
+  "name": "Sodium Extra",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "447673",
+      "slug": "sodium-extra",
+      "versionId": "9324102",
+      "versionNumber": "[NeoForge] mc1.21.1-0.9.5",
+      "filename": "sodium-extra-neoforge-0.9.5+mc1.21.1.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/9324/102/sodium-extra-neoforge-0.9.5%2bmc1.21.1.jar",
+      "sha1": "6ca433df0ad08ce8413582e75dcae7619414a068",
+      "fileSize": 483373
+    }
+  },
+  "dependents": [],
+  "optionalDependents": [
+    "511319"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

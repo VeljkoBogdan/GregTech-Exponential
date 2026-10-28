@@ -1,0 +1,28 @@
+{
+  "name": "FTB Library (NeoForge)",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "404465",
+      "slug": "ftb-library-forge",
+      "versionId": "9350706",
+      "versionNumber": "[NEOFORGE][1.21.1] FTB Library 2101.1.39",
+      "filename": "ftb-library-neoforge-2101.1.39.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/9350/706/ftb-library-neoforge-2101.1.39.jar",
+      "sha1": "ff852d99ade215fb892369687d0634ecf0bca6ae",
+      "fileSize": 1477833
+    }
+  },
+  "dependents": [
+    "289412",
+    "314906",
+    "386134",
+    "404468",
+    "410811"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}
