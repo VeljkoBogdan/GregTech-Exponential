@@ -437,6 +437,10 @@
       "sha1": "336814cba37dcac38b4176cf130a0da8786721a7"
     },
     {
+      "path": "overrides/kubejs/server_scripts/worldgen/denser_veins.js",
+      "sha1": "c1aacb043d5f4d366f774a446a941ef8ddf3bf6f"
+    },
+    {
       "path": "overrides/mods/gtceu-1.21.1-8.0.0-SNAPSHOT+20261028-062956-ee4a1d2.jar",
       "sha1": "f8fd0ff073cba12ce2b3b61df038dee55179b47c"
     },
