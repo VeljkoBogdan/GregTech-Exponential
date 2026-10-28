@@ -433,6 +433,10 @@
       "sha1": "d1ca63221838d2919d10e32e6f493d9917ebb48e"
     },
     {
+      "path": "overrides/kubejs/server_scripts/recipes/steam_age.js",
+      "sha1": "336814cba37dcac38b4176cf130a0da8786721a7"
+    },
+    {
       "path": "overrides/mods/gtceu-1.21.1-8.0.0-SNAPSHOT+20261028-062956-ee4a1d2.jar",
       "sha1": "f8fd0ff073cba12ce2b3b61df038dee55179b47c"
     },
