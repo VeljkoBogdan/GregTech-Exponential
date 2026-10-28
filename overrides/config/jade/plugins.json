@@ -59,6 +59,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,

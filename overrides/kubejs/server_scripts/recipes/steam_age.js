@@ -17,6 +17,28 @@ ServerEvents.recipes(event => {
             '#minecraft:coals'
         ]
     )
+
+    // easy rubber recipe
+    event.shapeless(
+        'gtceu:rubber_ingot',
+        [
+            '#c:tools/hammer',
+            'gtceu:sticky_resin'
+        ]
+    )
+
+    event.shaped(
+        'gtceu:rubber_plate',
+        [
+            'H  ',
+            'S  ',
+            'S  '
+        ],
+        {
+            'S': 'gtceu:rubber_ingot',
+            'H': '#c:tools/hammer'
+        }
+    )
 })
 
 ServerEvents.tags('item', event => {

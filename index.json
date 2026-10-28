@@ -6,7 +6,7 @@
     },
     {
       "path": "content/mods/architectury-api.json",
-      "sha1": "9cc90245f8f48ca89df495b30e0d2f10dbb03a02"
+      "sha1": "3da80182fc74ddbd3bccf903cde92c67438fe8c3"
     },
     {
       "path": "content/mods/bad-wither-no-cookie.json",
@@ -93,12 +93,16 @@
       "sha1": "b7420ddc6f1bb3bbb5b8c7d1304ee6dd6f8c01b4"
     },
     {
+      "path": "content/mods/ftb-filter-system.json",
+      "sha1": "8c42f2edbd122234200a5ffee2d1adffd2cba4e0"
+    },
+    {
       "path": "content/mods/ftb-library-forge.json",
-      "sha1": "7f55869dd5810c0239e14da4c023bb37fd31816f"
+      "sha1": "95ff690b66e25e1b88a40d7202c3745e78f5e1ca"
     },
     {
       "path": "content/mods/ftb-quests-forge.json",
-      "sha1": "242eb610a570d0dd8d24e14400e72ba5acbb326b"
+      "sha1": "189d8e884891c5a00bb8d284a53777c5f6f8e1e1"
     },
     {
       "path": "content/mods/ftb-teams-forge.json",
@@ -107,6 +111,10 @@
     {
       "path": "content/mods/ftb-ultimine-forge.json",
       "sha1": "d248386ba307eac98807db3e9f907a8b976b4c2b"
+    },
+    {
+      "path": "content/mods/ftb-xmod-compat.json",
+      "sha1": "985c0c92c57f6785cd5853c6723bcf845ebb5782"
     },
     {
       "path": "content/mods/guideme.json",
@@ -270,7 +278,7 @@
     },
     {
       "path": "overrides/config/ftbchunks-client.snbt",
-      "sha1": "984dbed5d1b7300df2ac99e3945acffe3ac772e9"
+      "sha1": "ac64c15881c583489f0965e1d3510a1e04adf28e"
     },
     {
       "path": "overrides/config/ftbchunks-world.snbt",
@@ -289,6 +297,22 @@
       "sha1": "85e21943e6e5a825a243520f04d916844bc5e0bb"
     },
     {
+      "path": "overrides/config/ftbquests/quests/chapter_groups.snbt",
+      "sha1": "9228c43ad409809ffd47efec6fa9500cb203dee4"
+    },
+    {
+      "path": "overrides/config/ftbquests/quests/chapters/first_exponent.snbt",
+      "sha1": "4666fece7a4d8fa419a39b47dd119e56a636d86a"
+    },
+    {
+      "path": "overrides/config/ftbquests/quests/data.snbt",
+      "sha1": "612112467a2a498fa03b304dd3c7a21ebde42724"
+    },
+    {
+      "path": "overrides/config/ftbquests/quests/lang/en_us.snbt",
+      "sha1": "07de254deb24beaa73cccfe439cbd405c668a64f"
+    },
+    {
       "path": "overrides/config/ftbteams-server.snbt",
       "sha1": "a2faae164b7c2e348a10b4761979297c289a192e"
     },
@@ -299,6 +323,10 @@
     {
       "path": "overrides/config/ftbultimine-server.snbt",
       "sha1": "5f0a658523b37444c3c73591071948bbccf24f3b"
+    },
+    {
+      "path": "overrides/config/ftbxmodcompat.snbt",
+      "sha1": "da2f232a44a351678c7574fa5f3d6d28645b4ea9"
     },
     {
       "path": "overrides/config/gtceu-early.properties",
@@ -322,7 +350,7 @@
     },
     {
       "path": "overrides/config/iris.properties",
-      "sha1": "67ee75faff22d1d66a1baee8c84de6e8da1c7312"
+      "sha1": "f376cd60eec7c4150ee9d03cac8cf8a20cfa3e60"
     },
     {
       "path": "overrides/config/jade/hide-blocks.json",
@@ -338,11 +366,11 @@
     },
     {
       "path": "overrides/config/jade/plugins.json",
-      "sha1": "7f3474e9161bfd7bf38aabf73d3909a129648944"
+      "sha1": "aa454aa6949bc77d606cecbec86a4a283175c993"
     },
     {
       "path": "overrides/config/jade/sort-order.json",
-      "sha1": "0bf9ce4e2e9d3a945f81d5dabc587db4c0f8537d"
+      "sha1": "af1b6716b8a8b35b7519b9a3c63035749edab72c"
     },
     {
       "path": "overrides/config/ldlib2-client.toml",
@@ -434,7 +462,7 @@
     },
     {
       "path": "overrides/kubejs/server_scripts/recipes/steam_age.js",
-      "sha1": "336814cba37dcac38b4176cf130a0da8786721a7"
+      "sha1": "9ef6c87d3f13640e214e5c09cf1acd2f6d219c7a"
     },
     {
       "path": "overrides/kubejs/server_scripts/worldgen/denser_veins.js",
@@ -446,7 +474,7 @@
     },
     {
       "path": "overrides/options.txt",
-      "sha1": "1a0670cd850ff1cf1febc8fb3feee7f5b03e4eab"
+      "sha1": "4522aa9b58ddfc2fc4a0e6a459c9e7e60c0033b6"
     }
   ]
 }

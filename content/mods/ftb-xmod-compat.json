@@ -1,0 +1,25 @@
+{
+  "name": "FTB XMod Compat",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "889915",
+      "slug": "ftb-xmod-compat",
+      "versionId": "9344504",
+      "versionNumber": "[NEOFORGE][1.21.1] FTB XMod Compat 21.1.14",
+      "filename": "ftb-xmod-compat-neoforge-21.1.14.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/9344/504/ftb-xmod-compat-neoforge-21.1.14.jar",
+      "sha1": "8dc3db7b8aa93eabac54237c5d53bfea15f92ba5",
+      "fileSize": 149952
+    }
+  },
+  "dependents": [],
+  "optionalDependents": [
+    "289412"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

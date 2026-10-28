@@ -1,0 +1,45 @@
+{
+	chapter.6BDEEA629D59AA63.title: "Chapter I: X^0"
+	file.0000000000000001.title: "GT: Exponential"
+	quest.19203695B9A98BF4.quest_desc: [
+		"Your first steps into progressing should be getting resources. &bOres are much denser than before&r, so you won't have trouble with those."
+		""
+		"&bThe prospector&r should help you locate all the ore veins you need."
+		""
+		"Also, here's an &bunbreakable hammer&r to mine all those ores!"
+		""
+		"Happy mining!"
+	]
+	quest.19203695B9A98BF4.title: "First Steps"
+	quest.3A7BD20252EDCFBC.quest_desc: [
+		"Steel is dirt cheap now!"
+		""
+		"Just hammer some iron and coal in the crafting table."
+	]
+	quest.3A7BD20252EDCFBC.title: "Steely Dan"
+	quest.3E1FA1FDB6A67FB4.quest_desc: [
+		"You'll need basic tools for pretty much anything in GregTech."
+		""
+		"Wrought Iron is the best and cheapest tool material you can currently make."
+		""
+		"&8PS. you can scroll the filters&r"
+	]
+	quest.3E1FA1FDB6A67FB4.title: "Basic Tools"
+	quest.53944155699FAB6E.quest_desc: [
+		"&lWelcome to &bGregTech: Exponential&r!&r"
+		""
+		"GT:E is a mod with exponentially increasing difficulty. You will start off easy, with &amost early recipes being way simpler&r than before. After that, &5each tier will increase in difficulty&r."
+		""
+		"This pack is meant to boost you into the mid and late game, and challenge your infrastructure and problem solving, without the tedium."
+	]
+	quest.5BE07F247E87FAF0.quest_desc: ["You can find rubber trees all over the world, which drop sticky resin when chopped down. This sticky resin can be turned into rubber ingots, and then rubber sheets, using hammers."]
+	quest.5BE07F247E87FAF0.title: "Rubbery"
+	quest.679BF41DB511556A.quest_desc: [
+		"To progress further, you're going to mainly need Iron and Coal or Charcoal (to make Steel)."
+		""
+		"Secondary materials include Redstone, Copper and Tin."
+	]
+	quest.679BF41DB511556A.title: "Mining Trip"
+	task.02637FB0C63643D6.title: "The Start"
+	task.14460CB862DF0DA2.title: "Unbreakable Hammer"
+}

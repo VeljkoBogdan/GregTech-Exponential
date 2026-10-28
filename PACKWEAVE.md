@@ -1,6 +1,6 @@
 # GregTech: Exponential
 
-**Minecraft 1.21.1 · neoforge 21.1.265**, 44 mods (2 dependencies)
+**Minecraft 1.21.1 · neoforge 21.1.265**, 46 mods (2 dependencies)
 
 ## Contents
 
@@ -27,10 +27,12 @@
 - FerriteCore ((Neo)Forge) `ferritecore-7.0.3-neoforge` (curseforge)
 - FTB Chunks (NeoForge) `[NEOFORGE][1.21.1] FTB Chunks 2101.1.22` (curseforge)
 - FTB Essentials (Forge & Fabric) `[NEOFORGE][1.21.1] FTB Essentials 2101.1.10` (curseforge)
+- FTB Filter System `[NEOFORGE][1.21.1] FTB Filter System 21.1.4` (curseforge)
 - FTB Library (NeoForge) `[NEOFORGE][1.21.1] FTB Library 2101.1.39` (curseforge)
 - FTB Quests (NeoForge) `[NEOFORGE][1.21.1] FTB Quests 2101.1.37` (curseforge)
 - FTB Teams (NeoForge) `[NEOFORGE][1.21.1] FTB Teams 2101.1.11` (curseforge)
 - FTB Ultimine (NeoForge) `[NEOFORGE][1.21.1] FTB Ultimine 2101.1.15` (curseforge)
+- FTB XMod Compat `[NEOFORGE][1.21.1] FTB XMod Compat 21.1.14` (curseforge)
 - [GuideME](https://modrinth.com/project/guideme) `21.1.21`
 - [Inventory Essentials](https://modrinth.com/project/inventory-essentials) `21.1.20+neoforge-1.21.1`
 - [Iris Shaders](https://modrinth.com/project/iris) `1.8.14-beta.1+1.21.1-neoforge`

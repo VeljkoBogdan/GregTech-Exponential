@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_exponent"
+	group: ""
+	icon: {
+		id: "gtceu:neutronium_wrench"
+	}
+	id: "6BDEEA629D59AA63"
+	images: [{
+		alpha: 32
+		click_action: "none:"
+		height: 2.0d
+		id: "5D496E2AA14A148E"
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "gtceu:textures/gui/icon/gregtech_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "53944155699FAB6E"
+			rewards: [{
+				count: 16
+				id: "6011BB5AA3C7C4E0"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "02637FB0C63643D6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53944155699FAB6E"]
+			id: "19203695B9A98BF4"
+			rewards: [
+				{
+					id: "3F595C301D5FFC1C"
+					item: {
+						components: {
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "gtceu:blue_steel_mining_hammer"
+					}
+					type: "item"
+				}
+				{
+					id: "5F0E0164E76DD699"
+					item: {
+						components: {
+							"gtceu:energy_content": {
+								charge: 1000000000L
+								discharge_mode: 0b
+								infinite: 0b
+								max_charge: 1000000000L
+							}
+						}
+						count: 1
+						id: "gtceu:prospector.luv"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14460CB862DF0DA2"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19203695B9A98BF4"]
+			id: "679BF41DB511556A"
+			tasks: [
+				{
+					count: 64L
+					id: "199AC991D3C2F378"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "11E9E150BF91CA78"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:coals))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E1FA1FDB6A67FB4"]
+			id: "3A7BD20252EDCFBC"
+			tasks: [{
+				count: 64L
+				id: "5AB347511867F60A"
+				item: { count: 1, id: "gtceu:steel_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["679BF41DB511556A"]
+			id: "3E1FA1FDB6A67FB4"
+			rewards: [{
+				id: "4A5E589FEB1BB878"
+				item: {
+					count: 1
+					id: "gtceu:wrought_iron_crowbar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "656FEF1D703B4A2F"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(gtceu:crafting_tools/hammer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "04E3F86322F6C384"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(gtceu:crafting_tools/wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "38A6BD71A3A7BD58"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(gtceu:crafting_tools/file))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "45A11D635FA8B420"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(gtceu:crafting_tools/screwdriver))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "34FF9080271B63E8"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(gtceu:crafting_tools/wire_cutter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3A7BD20252EDCFBC"
+				"5BE07F247E87FAF0"
+			]
+			id: "5F49D3C2004120A3"
+			tasks: [{
+				id: "419625CBBD25A694"
+				item: { count: 1, id: "gtceu:lv_machine_hull" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E1FA1FDB6A67FB4"]
+			id: "5BE07F247E87FAF0"
+			tasks: [
+				{
+					id: "6B1DAA3AFE6D1996"
+					item: { count: 1, id: "gtceu:sticky_resin" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "704FC6C42B0328A2"
+					item: { count: 1, id: "gtceu:rubber_ingot" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5702B64DEF8B08F9"
+					item: { count: 1, id: "gtceu:rubber_plate" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.0d
+		}
+	]
+}

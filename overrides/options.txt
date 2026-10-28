@@ -58,7 +58,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -181,7 +181,7 @@ key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.unknown
+key_key.ftbquests.quests:key.mouse.5
 key_key.ftbquests.cycle_pinned_tracker:key.keyboard.unknown
 key_key.ftbquests.gui.zoom_in:key.keyboard.equal
 key_key.ftbquests.gui.zoom_out:key.keyboard.minus
