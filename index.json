@@ -421,20 +421,8 @@
       "sha1": "3e56c097cd0c5be61b767a9a9ae73ae083d2eca9"
     },
     {
-      "path": "overrides/kubejs/assets/kubejs/textures/block/example_block.png",
-      "sha1": "87f5ec8c26493050fc83543af8d33f2d28a98766"
-    },
-    {
-      "path": "overrides/kubejs/assets/kubejs/textures/item/example_item.png",
-      "sha1": "d9912cb709ad496b10f19f8b2c66d1e419eb760c"
-    },
-    {
-      "path": "overrides/kubejs/client_scripts/main.js",
-      "sha1": "e6f23e21b25a366f2216fbf7da00ed7d34542f20"
-    },
-    {
       "path": "overrides/kubejs/config/client.json",
-      "sha1": "f1e6d58c7f3d7dc52549d0804a0449a125123e4f"
+      "sha1": "873a76bfd1d0fc80d421feed185085732b0d42d4"
     },
     {
       "path": "overrides/kubejs/config/common.json",
@@ -443,14 +431,6 @@
     {
       "path": "overrides/kubejs/config/web_server.json",
       "sha1": "d1ca63221838d2919d10e32e6f493d9917ebb48e"
-    },
-    {
-      "path": "overrides/kubejs/server_scripts/main.js",
-      "sha1": "6249ded51466cfc7b94ae9796f8c2caec5dac539"
-    },
-    {
-      "path": "overrides/kubejs/startup_scripts/main.js",
-      "sha1": "05ec115c372985dc9f77dd2513933aa8e90eba61"
     },
     {
       "path": "overrides/mods/gtceu-1.21.1-8.0.0-SNAPSHOT+20261028-062956-ee4a1d2.jar",
