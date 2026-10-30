@@ -117,6 +117,10 @@
       "sha1": "985c0c92c57f6785cd5853c6723bcf845ebb5782"
     },
     {
+      "path": "content/mods/gregtech-exponential-core.json",
+      "sha1": "aace3c931a5f1da068fe740681232b0f6b35b775"
+    },
+    {
       "path": "content/mods/guideme.json",
       "sha1": "4e7a782241d2ab579d72849bae16e2a94c2535bb"
     },

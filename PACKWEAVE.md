@@ -1,6 +1,6 @@
 # GregTech: Exponential
 
-**Minecraft 1.21.1 · neoforge 21.1.265**, 46 mods (2 dependencies)
+**Minecraft 1.21.1 · neoforge 21.1.265**, 47 mods (2 dependencies)
 
 ## Contents
 
@@ -33,6 +33,7 @@
 - FTB Teams (NeoForge) `[NEOFORGE][1.21.1] FTB Teams 2101.1.11` (curseforge)
 - FTB Ultimine (NeoForge) `[NEOFORGE][1.21.1] FTB Ultimine 2101.1.15` (curseforge)
 - FTB XMod Compat `[NEOFORGE][1.21.1] FTB XMod Compat 21.1.14` (curseforge)
+- GregTech: Exponential Core `GregTech-Exponential-Core-1.0.0.jar` (curseforge)
 - [GuideME](https://modrinth.com/project/guideme) `21.1.21`
 - [Inventory Essentials](https://modrinth.com/project/inventory-essentials) `21.1.20+neoforge-1.21.1`
 - [Iris Shaders](https://modrinth.com/project/iris) `1.8.14-beta.1+1.21.1-neoforge`

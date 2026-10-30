@@ -1,0 +1,22 @@
+{
+  "name": "GregTech: Exponential Core",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "1772538",
+      "slug": "gregtech-exponential-core",
+      "versionId": "9363201",
+      "versionNumber": "GregTech-Exponential-Core-1.0.0.jar",
+      "filename": "GregTech-Exponential-Core-1.0.0.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/9363/201/GregTech-Exponential-Core-1.0.0.jar",
+      "sha1": "17080f22499720642fb0fd13e717fae3e532fd47",
+      "fileSize": 28106
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}
