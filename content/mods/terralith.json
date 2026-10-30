@@ -1,0 +1,22 @@
+{
+  "name": "Terralith",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "513688",
+      "slug": "terralith",
+      "versionId": "8222737",
+      "versionNumber": "v2.6.2 ~ Neoforge Mod 1.21.1",
+      "filename": "Terralith_1.21.x_v2.6.2.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/8222/737/Terralith_1.21.x_v2.6.2.jar",
+      "sha1": "d4a9fe71b841f70edfb4b280f9bf5c58e4a28224",
+      "fileSize": 2814865
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

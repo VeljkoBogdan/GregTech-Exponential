@@ -1,0 +1,22 @@
+{
+  "name": "Tectonic",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "686836",
+      "slug": "tectonic",
+      "versionId": "8855043",
+      "versionNumber": "v3.0.28 ~ Neoforge 21.1",
+      "filename": "tectonic-3.0.28-neoforge-21.1.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/8855/43/tectonic-3.0.28-neoforge-21.1.jar",
+      "sha1": "db15156eec4320c2997c4dd4948119472de01224",
+      "fileSize": 451757
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

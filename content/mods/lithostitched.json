@@ -1,0 +1,24 @@
+{
+  "name": "Lithostitched",
+  "side": "auto",
+  "explicit": false,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "936015",
+      "slug": "lithostitched",
+      "versionId": "9170709",
+      "versionNumber": "v1.8.1 ~ Neoforge 21.1",
+      "filename": "lithostitched-1.8.1-neoforge-21.1.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/9170/709/lithostitched-1.8.1-neoforge-21.1.jar",
+      "sha1": "88cdded5b617e19b4d2676948b5550699de23578",
+      "fileSize": 1023751
+    }
+  },
+  "dependents": [
+    "513688"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

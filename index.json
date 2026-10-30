@@ -130,7 +130,7 @@
     },
     {
       "path": "content/mods/iris.json",
-      "sha1": "ddc6038d7c892f91c59b70b1bc82a19542193056"
+      "sha1": "91fef8ef04e4f58e789b6ad4a93e7def57e8e0b4"
     },
     {
       "path": "content/mods/jade.json",
@@ -147,6 +147,10 @@
     {
       "path": "content/mods/leaves-be-gone.json",
       "sha1": "88354d0a52eace4267107143e414e580811d6210"
+    },
+    {
+      "path": "content/mods/lithostitched.json",
+      "sha1": "2bd84a1cb7b01a9c895f3fcf7b7b3755f2cf5920"
     },
     {
       "path": "content/mods/modernfix.json",
@@ -187,6 +191,14 @@
     {
       "path": "content/mods/sodium.json",
       "sha1": "9b4a12f1d35fd3708d4fd666c2062c7d56ece22d"
+    },
+    {
+      "path": "content/mods/tectonic.json",
+      "sha1": "661168b972c5b762534f42f256516584f7f5425b"
+    },
+    {
+      "path": "content/mods/terralith.json",
+      "sha1": "2b0a00df30b4d883304a077ab08145cd1588603a"
     },
     {
       "path": "content/mods/toast-control.json",
@@ -385,6 +397,10 @@
       "sha1": "30c81e80ddc26e087acb20b397df58941a04d084"
     },
     {
+      "path": "overrides/config/lithostitched.json",
+      "sha1": "9ae03c2dafdba47d9518aae1865d20e5abadbe03"
+    },
+    {
       "path": "overrides/config/modernfix-common.toml",
       "sha1": "67d29a1db4c6d7d97b4912e5ef3aae34347d3e38"
     },
@@ -435,6 +451,14 @@
     {
       "path": "overrides/config/sodiumextras-client.toml",
       "sha1": "2ef279efee003e45558cd034497d6a78dc9e88df"
+    },
+    {
+      "path": "overrides/config/tectonic.json",
+      "sha1": "a49cbe958d4c45c59783b426a5079ad83ed2a206"
+    },
+    {
+      "path": "overrides/config/terralith.json",
+      "sha1": "e78e92ea51ed500453dbf8872da461c854e63569"
     },
     {
       "path": "overrides/config/toastcontrol-client.toml",
