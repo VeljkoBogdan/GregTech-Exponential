@@ -489,6 +489,10 @@
       "sha1": "72bc0862d970e44dd5075bef3e74110f69d65a7d"
     },
     {
+      "path": "overrides/kubejs/config/packicon.png",
+      "sha1": "6a3b65cff5d93acb94ee48c36e905400bc787117"
+    },
+    {
       "path": "overrides/kubejs/config/web_server.json",
       "sha1": "d1ca63221838d2919d10e32e6f493d9917ebb48e"
     },
