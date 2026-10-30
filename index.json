@@ -310,7 +310,7 @@
     },
     {
       "path": "overrides/config/ftbquests/quests/lang/en_us.snbt",
-      "sha1": "07de254deb24beaa73cccfe439cbd405c668a64f"
+      "sha1": "db675c73a9436720acb3a7164b0e74d0fa36650c"
     },
     {
       "path": "overrides/config/ftbteams-server.snbt",
@@ -334,7 +334,7 @@
     },
     {
       "path": "overrides/config/gtceu.yaml",
-      "sha1": "b3dc345717b522baa64d3a0ca7d729c157e0f9a2"
+      "sha1": "e3ceb6ed2a8139fdfcb4d6ec2610eeb97fb599cb"
     },
     {
       "path": "overrides/config/guideme.toml",
@@ -350,7 +350,7 @@
     },
     {
       "path": "overrides/config/iris.properties",
-      "sha1": "f376cd60eec7c4150ee9d03cac8cf8a20cfa3e60"
+      "sha1": "204077c693936f27ff0fa9a2704c4c68f7250e4e"
     },
     {
       "path": "overrides/config/jade/hide-blocks.json",
@@ -442,11 +442,15 @@
     },
     {
       "path": "overrides/icon.png",
-      "sha1": "5a72150d4f7f30503eb3acc4c246ef6207bf4008"
+      "sha1": "39d65d52c5fd4a1350221bcaf586152fec50a5fa"
     },
     {
       "path": "overrides/kubejs/README.txt",
       "sha1": "3e56c097cd0c5be61b767a9a9ae73ae083d2eca9"
+    },
+    {
+      "path": "overrides/kubejs/assets/gtceu/lang/en_us.json",
+      "sha1": "d83e6c694c806913b8d1b1b601fb88f70d261279"
     },
     {
       "path": "overrides/kubejs/config/client.json",
@@ -461,12 +465,28 @@
       "sha1": "d1ca63221838d2919d10e32e6f493d9917ebb48e"
     },
     {
+      "path": "overrides/kubejs/server_scripts/recipes/lv_age.js",
+      "sha1": "26f787480e3b9d8b64c3714ac1dcce23131d2118"
+    },
+    {
       "path": "overrides/kubejs/server_scripts/recipes/steam_age.js",
       "sha1": "9ef6c87d3f13640e214e5c09cf1acd2f6d219c7a"
     },
     {
+      "path": "overrides/kubejs/server_scripts/recipes/superconductors.js",
+      "sha1": "a616ff6b55abac2219cf8deaca17af7211d7fc94"
+    },
+    {
       "path": "overrides/kubejs/server_scripts/worldgen/denser_veins.js",
       "sha1": "c1aacb043d5f4d366f774a446a941ef8ddf3bf6f"
+    },
+    {
+      "path": "overrides/kubejs/startup_scripts/global.js",
+      "sha1": "97f08b2696c54189527c44022ca6f99952be3c0e"
+    },
+    {
+      "path": "overrides/kubejs/startup_scripts/materials/superconductors.js",
+      "sha1": "fc98d6ce2cceb4191213f3d2062c3cea2549d18a"
     },
     {
       "path": "overrides/mods/gtceu-1.21.1-8.0.0-SNAPSHOT+20261028-062956-ee4a1d2.jar",

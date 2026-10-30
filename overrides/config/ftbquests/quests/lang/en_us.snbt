@@ -32,7 +32,11 @@
 		""
 		"This pack is meant to boost you into the mid and late game, and challenge your infrastructure and problem solving, without the tedium."
 	]
-	quest.5BE07F247E87FAF0.quest_desc: ["You can find rubber trees all over the world, which drop sticky resin when chopped down. This sticky resin can be turned into rubber ingots, and then rubber sheets, using hammers."]
+	quest.5BE07F247E87FAF0.quest_desc: [
+		"You can find rubber trees all over the world, which drop sticky resin when chopped down. This sticky resin can be turned into rubber ingots, and then rubber sheets, using hammers."
+		""
+		"&bPS you can spam crouch to quickly grow the saplings.&r"
+	]
 	quest.5BE07F247E87FAF0.title: "Rubbery"
 	quest.679BF41DB511556A.quest_desc: [
 		"To progress further, you're going to mainly need Iron and Coal or Charcoal (to make Steel)."
