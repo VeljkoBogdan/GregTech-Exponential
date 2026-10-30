@@ -1,6 +1,8 @@
 {
 	chapter.6BDEEA629D59AA63.title: "Chapter I: X^0"
 	file.0000000000000001.title: "GT: Exponential"
+	quest.033D038347F66DE1.quest_desc: ["Resistors are useful components that you'll craft a bunch of in the future."]
+	quest.06C5F95B1C3A8F93.quest_desc: ["Basic board for your first circuit."]
 	quest.19203695B9A98BF4.quest_desc: [
 		"Your first steps into progressing should be getting resources. &bOres are much denser than before&r, so you won't have trouble with those."
 		""
@@ -25,6 +27,7 @@
 		"&8PS. you can scroll the filters&r"
 	]
 	quest.3E1FA1FDB6A67FB4.title: "Basic Tools"
+	quest.48ACB2C77CB968C6.quest_desc: ["Vacuum tubes are required to make the first electronic circuit."]
 	quest.53944155699FAB6E.quest_desc: [
 		"&lWelcome to &bGregTech: Exponential&r!&r"
 		""

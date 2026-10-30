@@ -9,6 +9,7 @@ let lvMachinesFromStonecutting = ['gtceu:lv_electric_furnace', 'gtceu:lv_alloy_s
     'gtceu:lv_item_collector', 'gtecore:lv_biomass_burner', 'gtecore:lv_coal_generator']
     // exceptions: circuit assembler, world accelerator, buffer
 
+
 ServerEvents.recipes(event => {
     // stonecutting lv machines
     lvMachinesFromStonecutting.forEach(machine => {
@@ -49,6 +50,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:shaped/electronic_circuit_lv' })
     event.remove({ id: 'gtceu:circuit_assembler/electronic_circuit_lv' })
     event.remove({ id: 'gtceu:circuit_assembler/electronic_circuit_lv_soldering_alloy' })
+    event.remove({ output: 'gtceu:vacuum_tube' })
+    event.remove({ output: 'gtceu:resistor' })
 
     event.replaceInput({ id:'gtceu:assembler/basic_circuit_board' }, 'gtceu:copper_foil', 'gtceu:fine_copper_wire')
 
@@ -85,6 +88,82 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.shapeless(
+        '2x gtceu:resistor',
+        [
+            '#gtecore:crafting/sticky',
+            '#gtecore:crafting/carbon_dusts',
+            '#c:plates/paper',
+            'gtceu:fine_copper_wire'
+        ]
+    )
+
+    event.recipes.gtceu.assembler('kubejs/assembler/resistor')
+        .itemInputs(
+            '#gtecore:crafting/carbon_dusts',
+            'gtceu:fine_copper_wire'
+        )
+        .inputFluids(Fluid.of('gtceu:glue', 100))
+        .itemOutputs('2x gtceu:resistor')
+        .duration(20*6)
+        .EUt(GTValues.VA[GTValues.ULV])
+
+    event.recipes.gtceu.assembler('kubejs/assembler/resistor_annealed_copper')
+        .itemInputs(
+            '#gtecore:crafting/carbon_dusts',
+            'gtceu:fine_annealed_copper_wire'
+        )
+        .inputFluids(Fluid.of('gtceu:glue', 100))
+        .itemOutputs('4x gtceu:resistor')
+        .duration(20*6)
+        .EUt(GTValues.VA[GTValues.ULV])
+
+    event.shaped(
+        '2x gtceu:vacuum_tube',
+        [
+            'G  ',
+            'R  ',
+            'W  '
+        ],
+        {
+            'G': 'gtceu:glass_tube',
+            'R': 'minecraft:redstone',
+            'W': 'gtceu:copper_single_wire'
+        }
+    )
+
+    event.recipes.gtceu.assembler('kubejs/assembler/vacuum_tube')
+        .itemInputs(
+            'gtceu:glass_tube',
+            'gtceu:copper_single_wire'
+        )
+        .inputFluids(Fluid.of('gtceu:redstone', 72))
+        .itemOutputs('2x gtceu:vacuum_tube')
+        .duration(20*6)
+        .EUt(GTValues.VA[GTValues.ULV])
+
+    event.recipes.gtceu.assembler('kubejs/assembler/vacuum_tube_annealed_copper')
+        .itemInputs(
+            'gtceu:glass_tube',
+            'gtceu:annealed_copper_single_wire'
+        )
+        .inputFluids(Fluid.of('gtceu:redstone', 72))
+        .itemOutputs('4x gtceu:vacuum_tube')
+        .duration(20*6)
+        .EUt(GTValues.VA[GTValues.ULV])
+
+    event.shaped(
+        'gtceu:glass_tube',
+        [
+            'GGG',
+            'G G',
+            'G G'
+        ],
+        {
+            'G': '#c:glass_panes'
+        }
+    )
+
     // easier lv machine hulls
     event.remove({ id: 'gtceu:shaped/lv_machine_hull' })
     event.remove({ id: 'gtceu:assembler/hull_lv' })
@@ -99,14 +178,14 @@ ServerEvents.recipes(event => {
         {
             'W': 'gtceu:wrought_iron_plate',
             'C': 'gtceu:lv_machine_casing',
-            'T': 'gtceu:tin_single_cable'
+            'T': '#gtceu:circuits/lv'
         }
     )
 
     event.recipes.gtceu.assembler('kubejs/assembler/hull_lv')
         .itemInputs(
             'gtceu:lv_machine_casing',
-            'gtceu:tin_single_cable'
+            '#gtceu:circuits/lv'
         )
         .itemOutputs('gtceu:lv_machine_hull')
         .duration(20*2.5)
