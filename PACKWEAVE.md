@@ -1,6 +1,6 @@
 # GregTech: Exponential
 
-**Minecraft 1.21.1 · neoforge 21.1.265**, 47 mods (2 dependencies)
+**Minecraft 1.21.1 · neoforge 21.1.265**, 48 mods (3 dependencies), 1 shader
 
 ## Contents
 
@@ -14,7 +14,7 @@
 - Clean Swing Through Grass `Clean Swing 1.21 1.10` (curseforge)
 - [Cloth Config API](https://modrinth.com/project/cloth-config) `15.0.140+neoforge`
 - [Clumps](https://modrinth.com/project/clumps) `19.0.0.1`
-- [Colorwheel](https://modrinth.com/project/colorwheel) `1.3.0+mc1.21.1`
+- [Complementary Shaders - Reimagined](https://modrinth.com/project/complementary-reimagined) `r5.9.3`
 - [Configuration](https://modrinth.com/project/configuration) `3.1.1`
 - Configured `Configured 2.6.3` (curseforge)
 - [Controlling](https://modrinth.com/project/controlling) `19.0.5`
@@ -49,6 +49,8 @@
 - [Searchables](https://modrinth.com/project/searchables) `1.0.2`
 - [Sodium](https://modrinth.com/project/sodium) `mc1.21.1-0.8.13-neoforge`
 - Sodium Extra `[NeoForge] mc1.21.1-0.9.5` (curseforge)
+- Tectonic `v3.0.28 ~ Neoforge 21.1` (curseforge)
+- Terralith `v2.6.2 ~ Neoforge Mod 1.21.1` (curseforge)
 - Toast Control `ToastControl-1.21.1-9.0.1.jar` (curseforge)
 - Too Fast `toofast-1.21.0-0.4.3.6.jar` (curseforge)
 

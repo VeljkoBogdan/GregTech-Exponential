@@ -41,10 +41,6 @@
       "sha1": "f0c21a040bf3cf093708b7a1242ac6574e3ab208"
     },
     {
-      "path": "content/mods/colorwheel.json",
-      "sha1": "f23837b1c0e786263ad23976c46d8ad4c4682716"
-    },
-    {
       "path": "content/mods/configuration.json",
       "sha1": "a1a9d3ee50a451d7b00fb8d7843e83ff347c955c"
     },
@@ -207,6 +203,10 @@
     {
       "path": "content/mods/too-fast.json",
       "sha1": "71fb76099a2d783290a90174b3db4816e6ff8e8f"
+    },
+    {
+      "path": "content/shaders/complementary-reimagined.json",
+      "sha1": "92b32bfb110af5b6eaf485c2cc122435eebd2f9f"
     },
     {
       "path": "overrides/config/MouseTweaks.cfg",
