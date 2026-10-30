@@ -45,13 +45,16 @@ ServerEvents.recipes(event => {
     )
 
     // lv circuits simpler circuit assembler recipes
-    event.remove({id: 'gtceu:shaped/electronic_circuit_lv'})
-    event.remove({id: 'gtceu:circuit_assembler/electronic_circuit_lv'})
-    event.remove({id: 'gtceu:circuit_assembler/electronic_circuit_lv_soldering_alloy'})
+    event.remove({ id: 'gtceu:shaped/basic_circuit_board' })
+    event.remove({ id: 'gtceu:shaped/electronic_circuit_lv' })
+    event.remove({ id: 'gtceu:circuit_assembler/electronic_circuit_lv' })
+    event.remove({ id: 'gtceu:circuit_assembler/electronic_circuit_lv_soldering_alloy' })
+
+    event.replaceInput({ id:'gtceu:assembler/basic_circuit_board' }, 'gtceu:copper_foil', 'gtceu:fine_copper_wire')
 
     event.recipes.gtceu.circuit_assembler('kubejs/electronic_circuit_lv')
         .itemInputs(
-            'gtceu:resin_circuit_board',
+            'gtceu:resin_printed_circuit_board',
             '#gtceu:resistors',
             '#gtceu:circuits/ulv'
         )
@@ -62,7 +65,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.circuit_assembler('kubejs/electronic_circuit_lv_soldering_alloy')
         .itemInputs(
-            'gtceu:resin_circuit_board',
+            'gtceu:resin_printed_circuit_board',
             '#gtceu:resistors',
             '#gtceu:circuits/ulv'
         )
@@ -83,8 +86,8 @@ ServerEvents.recipes(event => {
     )
 
     // easier lv machine hulls
-    event.remove({id: 'gtceu:shaped/lv_machine_hull'})
-    event.remove({id: 'gtceu:assembler/hull_lv'})
+    event.remove({ id: 'gtceu:shaped/lv_machine_hull' })
+    event.remove({ id: 'gtceu:assembler/hull_lv' })
 
     event.shaped(
         'gtceu:lv_machine_hull',
